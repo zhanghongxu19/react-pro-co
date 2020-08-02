@@ -87,12 +87,18 @@ export default defineConfig({
                   component: './facepic/add',
                 },
                 {
+                  name: 'addbak',
+                  icon: 'table',
+                  path: '/facepic/addbak',
+                  component: './facepic/addbak',
+                },
+                {
                   name: 'query',
                   icon: 'table',
                   path: '/facepic/query',
                   component: './facepic/query',
-                }
-              ]
+                },
+              ],
             },
             {
               component: './404',
