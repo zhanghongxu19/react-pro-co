@@ -90,7 +90,7 @@ export default defineConfig({
                   name: 'addbak',
                   icon: 'table',
                   path: '/facepic/addbak',
-                  component: './facepic/addbak',
+                  component: './facepic/addbak1',
                 },
                 {
                   name: 'query',
