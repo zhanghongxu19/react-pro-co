@@ -53,32 +53,6 @@ const Abtest = () => {
                     return (
                         <div>
                             {fields.map((field, index) => (
-                                // <Row key={field.key}>
-                                //     <Col>
-                                //         <Form.Item
-                                //         name={[field.name, "lastName"]}
-                                //         fieldKey={[field.fieldKey, "lastName"]}
-                                //         >
-                                //         <Input placeholder="last name" />
-                                //         </Form.Item>
-                                //     </Col>
-                                //     <Col>
-                                //         <Form.Item
-                                //         name={[field.name, "firstName"]}
-                                //         fieldKey={[field.fieldKey, "firstName"]}
-                                //         >
-                                //         <Input placeholder="first name" />
-                                //         </Form.Item>
-                                //     </Col>
-                                //     <Col flex="none">
-                                //         <MinusCircleOutlined
-                                //         className="dynamic-delete-button"
-                                //         onClick={() => {
-                                //             remove(field.name);
-                                //         }}
-                                //         />
-                                //     </Col>
-                                // </Row>
                                 <Card title="abtest_segment_list">
                                     <Row>
                                         <Col>
@@ -134,7 +108,7 @@ const Abtest = () => {
                                     </Row>
                                 </Card>
                             ))}
-                            <Form.Item>
+                            <Form.Item style={{display: display2 ? 'flex' : 'none'}}>
                                 <Button
                                 type="dashed"
                                 onClick={() => {
