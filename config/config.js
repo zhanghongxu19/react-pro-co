@@ -98,6 +98,12 @@ export default defineConfig({
                   path: '/facepic/query',
                   component: './facepic/query',
                 },
+                {
+                  name: 'demo',
+                  icon: 'table',
+                  path: '/facepic/demo',
+                  component: './facepic/demo',
+                },
               ],
             },
             {
